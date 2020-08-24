@@ -1,6 +1,6 @@
 
 # CATCaller
-CATCaller: An end2end ONT Basecaller using Convolu-tion-augmented Transformer.
+CATCaller: An end2end ONT Basecaller using Convolution-augmented Transformer.
 
 #### DNA basecalling command
 ```angular2
