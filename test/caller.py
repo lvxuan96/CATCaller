@@ -15,7 +15,7 @@ from torch import multiprocessing as mp
 torch.multiprocessing.set_sharing_strategy('file_system')
 
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '1' #need change
+os.environ['CUDA_VISIBLE_DEVICES'] = '0' #need change
 
 
 class Call(nn.Module):  #delete
