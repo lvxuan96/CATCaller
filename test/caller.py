@@ -21,7 +21,7 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '0' #need change
 class Call(nn.Module):  #delete
     def __init__(self, opt):
         super(Call, self).__init__()
-        checkpoint = torch.load(opt.model)
+        checkpoint = torch.load(opt.model,map_loacation=opt.device)
         model_opt = checkpoint['settings']
         self.model = LiteTransformerEncoder(d_model=model_opt.d_model,
                                             d_ff=model_opt.d_ff,
