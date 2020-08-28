@@ -16,7 +16,7 @@ command parameters
 * Python version >= 3.6 
 * CUDA/10.0
 * pytorch_gpu version >= 1.2.0    
-* [ctcdecode](https://github.com/parlance/ctcdecode.git)
+* [ctcdecode](https://github.com/parlance/ctcdecode.git) and [fast-ctc-decode](https://github.com/nanoporetech/fast-ctc-decode)
 * [dynamicConv/lightweightConv](https://github.com/pytorch/fairseq).
 To install dynamicConv/lightweightConv module:
 ```
